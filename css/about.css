@@ -12,11 +12,11 @@
       }
   
       #hero {
-        font-family: 'Inter', sans-serif;
         background-color: var(--primary-color);
         color: var(--text-color);
         line-height: 1.6;
         display: flex;
+        margin-top: 5rem;
         justify-content: center;
         align-items: center;
         min-height: 70vh;
@@ -138,15 +138,10 @@
           grid-template-columns: 100%;
           text-align: center;
         }
-  
         .image-grid {
-          grid-template-columns: 48% 48%;
-          margin: 0 auto;
-        }
-      }
-  
-      @media (max-width: 480px) {
-        .image-grid {
-          grid-template-columns: 100%;
+            grid-template-columns: 25% 25%;
+            justify-content: center;
+            margin: 0 auto;
+
         }
       }

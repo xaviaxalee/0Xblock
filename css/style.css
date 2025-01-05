@@ -7,7 +7,7 @@
 
   body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     color: var(--text-color);
   }
 
@@ -64,7 +64,7 @@
   .navbar-toggle div {
     width: 25px;
     height: 3px;
-    background-color: var(--text-color);
+    background-color: var(--accent-color);
   }
 
   .navbar-menu.mobile {
@@ -73,14 +73,16 @@
     background-color: var(--primary-color);
     position: absolute;
     top: 100%;
-    right: 2rem;
+    right: -1rem;
     width: 200px;
-    padding: 1rem;
+    padding: 0.5rem;
     border-radius: 5px;
   }
 
   .navbar-menu.mobile a {
     margin-bottom: 0.5rem;
+    padding-left: 2rem;
+    color: var(--text-color);
   }
 
   .navbar-menu.mobile.show {
